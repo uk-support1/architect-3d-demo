@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#eeeae1" />
+    <title>蒼建築設計事務所 | AOI ARCHITECTS</title>
+    <meta name="description" content="東京を拠点に、住宅・リノベーション・空間設計を行う架空の建築設計事務所のデモサイト。" />
+    <meta property="og:title" content="蒼建築設計事務所 | AOI ARCHITECTS" />
+    <meta property="og:description" content="暮らしを、建築する。ARCHITECTURE FOR LIFE." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23242420'/%3E%3Cpath d='M13 48 30 12h5l16 36h-8l-4-10H24l-4 10Zm14-17h9l-4-11Z' fill='%23eeeae1'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div class="loader" aria-live="polite">
+      <div class="loader__top"><span>AOI ARCHITECTS</span><span class="loader__value">0</span></div>
+      <div class="loader__line"><i></i></div>
+    </div>
+
+    <div class="cursor" aria-hidden="true"><span>VIEW<br />PROJECT</span></div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="AOI ARCHITECTS ホーム">AOI / AA</a>
+      <nav aria-label="メインナビゲーション">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <span class="header-index">35.6762° N<br />139.6503° E</span>
+    </header>
+
+    <div class="scene" aria-hidden="true">
+      <canvas id="webgl"></canvas>
+      <div class="scene__caption"><span>SCROLL TO EXPLORE</span><i></i><span class="scene__count">01 / 05</span></div>
+    </div>
+
+    <main id="top">
+      <section class="hero chapter" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <p class="eyebrow">ARCHITECTURE FOR LIFE.</p>
+          <h1 id="hero-title"><span>AOI</span><span>ARCHITECTS</span></h1>
+          <p class="hero__jp">暮らしを、建築する。</p>
+          <div class="hero__actions">
+            <a href="#projects">PROJECTS <span>↘</span></a>
+            <a href="#contact">CONTACT <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero__number" aria-hidden="true">01</div>
+      </section>
+
+      <section class="approach chapter" aria-labelledby="house-title">
+        <div class="approach__heading">
+          <p class="eyebrow">SELECTED HOUSE / 2026</p>
+          <h2 id="house-title">HOUSE 01</h2>
+          <p class="approach__en">A HOUSE FOR<br />QUIET DAYS.</p>
+          <p class="approach__jp">静かな時間のための家。</p>
+        </div>
+        <p class="vertical-note">TOKYO / RESIDENTIAL / 148.2 M²</p>
+      </section>
+
+      <section class="assembly chapter" id="assembly" aria-label="住宅の構成">
+        <div class="assembly__intro">
+          <span>ANATOMY OF A HOME</span>
+          <p>住まいを形ではなく、<br />暮らしを支える要素へ分解する。</p>
+        </div>
+        <article class="principle principle--one">
+          <span class="principle__number">01</span>
+          <div><p>LIGHT</p><h3>光を設計する。</h3><span>大きな開口と深い庇によって、<br />季節ごとに異なる光を室内へ取り込みます。</span></div>
+        </article>
+        <article class="principle principle--two">
+          <span class="principle__number">02</span>
+          <div><p>MATERIAL</p><h3>素材を選ぶ。</h3><span>時間とともに美しく変化する、<br />木・石・左官材を中心に選定します。</span></div>
+        </article>
+        <article class="principle principle--three">
+          <span class="principle__number">03</span>
+          <div><p>SPACE</p><h3>余白をつくる。</h3><span>部屋を増やすのではなく、<br />家族の気配がつながる余白を設計します。</span></div>
+        </article>
+      </section>
+
+      <section class="interior chapter" id="interior" aria-labelledby="inside-title">
+        <div class="interior__copy">
+          <p class="eyebrow">FROM OUTSIDE, IN</p>
+          <h2 id="inside-title">BETWEEN<br />LIGHT &amp; SHADE.</h2>
+          <p>窓は、内と外を分ける境界ではなく、<br />時間と季節を招き入れる場所。</p>
+        </div>
+        <p class="interior__index">04 — INTERIOR</p>
+      </section>
+
+      <section class="about light-section" id="about" aria-labelledby="about-title">
+        <div class="section-label"><span>02</span><span>ABOUT</span><span>TOKYO / JAPAN</span></div>
+        <h2 id="about-title">WE DESIGN<br /><em>THE WAY</em><br />YOU LIVE.</h2>
+        <div class="about__body">
+          <p class="about__lead">建築は、形をつくることだけではありません。</p>
+          <p>朝の光。<br />窓から見える木。<br />家族の距離。<br />一人になるための静けさ。</p>
+          <p>私たちは、そこに暮らす人の時間から、<br />建築を考えます。</p>
+        </div>
+        <p class="about__since">AOI ARCHITECTS<br />EST. TOKYO 2014</p>
+      </section>
+
+      <section class="projects light-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-label"><span>03</span><span>SELECTED PROJECTS</span><span>2021—2026</span></div>
+        <h2 id="projects-title">PLACES,<br /><em>WITH A PULSE.</em></h2>
+        <div class="project-list">
+          <article class="project project--wide" data-cursor="project">
+            <a href="#contact" aria-label="HOUSE N プロジェクトを見る">
+              <figure><img src="/images/project-01.jpg" alt="森に面した木とコンクリートの住宅外観" loading="lazy" width="1600" height="1067" /></figure>
+              <div class="project__meta"><span>01</span><h3>HOUSE N</h3><p>軽井沢 / RESIDENCE</p><time>2026</time></div>
+            </a>
+          </article>
+          <article class="project project--left" data-cursor="project">
+            <a href="#contact" aria-label="HOUSE K プロジェクトを見る">
+              <figure><img src="/images/project-02.jpg" alt="大きな窓から光が入る木質の住宅内部" loading="lazy" width="1400" height="933" /></figure>
+              <div class="project__meta"><span>02</span><h3>HOUSE K</h3><p>鎌倉 / RESIDENCE</p><time>2024</time></div>
+            </a>
+          </article>
+          <article class="project project--right" data-cursor="project">
+            <a href="#contact" aria-label="RENOVATION T プロジェクトを見る">
+              <figure><img src="/images/project-03.jpg" alt="陰影が美しいミニマルな住宅ファサード" loading="lazy" width="1400" height="933" /></figure>
+              <div class="project__meta"><span>03</span><h3>RENOVATION T</h3><p>世田谷 / RENOVATION</p><time>2021</time></div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="services light-section" id="services" aria-labelledby="services-title">
+        <div class="services__image" aria-hidden="true"></div>
+        <div class="section-label"><span>04</span><span>SERVICES</span><span>WHAT WE DO</span></div>
+        <h2 id="services-title">WHAT WE<br />DESIGN.</h2>
+        <div class="service-list">
+          <a href="#contact" data-image="/images/project-01.jpg"><span>01</span><strong>NEW HOUSE</strong><em>注文住宅</em><i>↗</i></a>
+          <a href="#contact" data-image="/images/project-03.jpg"><span>02</span><strong>RENOVATION</strong><em>リノベーション</em><i>↗</i></a>
+          <a href="#contact" data-image="/images/project-02.jpg"><span>03</span><strong>INTERIOR</strong><em>空間・インテリア設計</em><i>↗</i></a>
+        </div>
+      </section>
+
+      <section class="profile light-section" aria-labelledby="profile-title">
+        <div class="section-label"><span>05</span><span>PROFILE</span><span>ARCHITECT</span></div>
+        <div class="profile__mark" aria-hidden="true">H<span>A</span></div>
+        <div class="profile__content">
+          <p class="eyebrow">FOUNDER / PRINCIPAL ARCHITECT</p>
+          <h2 id="profile-title">Haruto Aoi<br /><span>蒼 悠人</span></h2>
+          <p>1984年東京都生まれ。国内設計事務所で住宅・文化施設の設計に携わった後、2014年に蒼建築設計事務所を設立。住まい手の小さな習慣を読み解き、光・素材・余白へ置き換える設計を続けている。</p>
+          <dl><div><dt>2009</dt><dd>東京藝術大学大学院 修了</dd></div><div><dt>2014</dt><dd>AOI ARCHITECTS 設立</dd></div><div><dt>2022</dt><dd>JIA 優秀建築選 選定</dd></div></dl>
+        </div>
+      </section>
+
+      <section class="closing chapter" id="contact" aria-labelledby="contact-title">
+        <div class="closing__copy">
+          <p class="eyebrow">START A CONVERSATION</p>
+          <h2 id="contact-title">LET'S BUILD<br /><em>YOUR PLACE.</em></h2>
+          <p>あなたの暮らしについて、<br />聞かせてください。</p>
+          <a href="mailto:hello@aoi-architects.example">CONTACT <span>↗</span></a>
+        </div>
+        <p class="closing__note">THE HOUSE RETURNS.<br />LIGHTS ON. LIFE BEGINS.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__brand">AOI<br />ARCHITECTS</div>
+      <nav aria-label="フッターナビゲーション"><a href="#projects">PROJECTS</a><a href="#about">ABOUT</a><a href="#services">SERVICES</a><a href="#contact">CONTACT</a></nav>
+      <div class="footer__place">TOKYO, JAPAN<br />35.6762° N / 139.6503° E</div>
+      <div class="footer__social"><a href="https://www.instagram.com/" rel="noopener noreferrer">Instagram</a><a href="https://www.pinterest.com/" rel="noopener noreferrer">Pinterest</a></div>
+      <div class="footer__bottom"><span>© AOI ARCHITECTS</span><span>This website is a fictional design demo.</span><a href="#top">BACK TO TOP ↑</a></div>
+    </footer>
+
+    <noscript><style>.loader{display:none}.scene{display:none}</style><p class="no-script">JavaScriptが無効でも、AOI ARCHITECTSの設計思想とプロジェクト情報はこのページでご覧いただけます。</p></noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
