@@ -1,4 +1,4 @@
-# AOI ARCHITECTS — 3D Architecture Demo
+# CHABURIN ARCHITECTS — 3D Architecture Demo
 
 架空の建築設計事務所「蒼建築設計事務所」のブランドサイトです。3D住宅とスクロールの情報設計を一体化し、外観・分解図・内部への接近・再構築をひとつの物語として構成しています。
 
